@@ -1,0 +1,29 @@
+.header{
+  display: flex;
+  width: 90%;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+.headerButton{
+  background-color: black;
+  color: white;
+  width: 60%;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+}
+.content{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.h1{
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+.p{
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin: 1rem 0;
+  color: #7A746E;
+}
