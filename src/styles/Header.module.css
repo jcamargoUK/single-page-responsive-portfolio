@@ -20,10 +20,76 @@
 .h1{
   font-weight: 600;
   letter-spacing: 2.5px;
+  margin-top: 2rem;
 }
 .p{
   font-weight: 400;
   letter-spacing: 1.5px;
   margin: 1rem 0;
   color: #7A746E;
+}
+
+@media screen and (min-width: 768px){
+  .header{
+    margin-top: 1.5rem;
+    width: 95%;
+  }
+  .logo{
+    width: 64px;
+    height: 64px;
+  }
+  .headerButton{
+    width: 40%;
+    font-size: 1.2rem;
+  }
+  .content{
+    width: 97%;
+  }
+  .h1{
+    font-size: 2.9rem;
+    margin-top: 3rem;
+    letter-spacing: 0;
+  }
+  .p{
+    font-weight: 400;
+    width: 80%;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .header{
+    width: 85%;
+  }
+  .headerButton{
+    width: 30%;
+    font-size: 1.5rem;
+  }
+  .content{
+    width: 90%;
+  }
+  .h1{
+    font-size: 3rem;
+  }
+  .p{
+    width: 70%;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1440px){
+  .header{
+    margin-top: 3rem;
+  }
+  .headerButton{
+    width: 25%;
+    font-size: 1.5rem;
+  }
+  .h1{
+    font-size: 4rem;
+  }
+  .p{
+    width: 65%;
+    font-size: 1.2rem;
+    line-height: 40px;
+  }
 }
