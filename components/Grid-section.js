@@ -13,57 +13,64 @@ const GridSection = () => {
 
       <div className={styles.graphicDesign}>
         <Image
-          id={styles.graphicDesign}
+          id={styles.graphicDesignImg}
           src={graphicDesign}
           alt="Graphic Design"
           width={128}
           height={192}
         />
+        <p className={styles.p} id={styles.graphicDesignP}>Graphic Design</p>
       </div>
+
       <div className={styles.uiUx}>
         <Image
-          id={styles.uiUx}
+          id={styles.uiUxImg}
           src={ulUx}
           alt="UI/UX"
           width={64}
           height={64}
         />
+        <p className={styles.p} id={styles.uiUxP}>UI/UX</p>
       </div>
       <div className={styles.apps}>
         <Image
-          id={styles.apps}
+          id={styles.appsImg}
           src={apps}
           alt="Apps"
           width={64}
           height={64}
         />
+        <p className={styles.p} id={styles.appsP}>Apps</p>
       </div>
       <div className={styles.illustrations}>
         <Image
-          id={styles.illustrations}
+          id={styles.illustrationsImg}
           src={illustrations}
           alt="illustrations"
           width={128}
           height={64}
         />
+        <p className={styles.p} id={styles.illustrationsP}>Illustrations</p>
       </div>
       <div className={styles.photography}>
         <Image
-          id={styles.photography}
+          id={styles.photographyImg}
           src={photography}
           alt="photography"
           width={160}
           height={64}
         />
+        <p className={styles.p} id={styles.photographyP}>Photography</p>
       </div>
       <div className={styles.motionGraphics}>
         <Image
-          id={styles.motionGraphics}
+          id={styles.motionGraphicsImg}
           src={motionGraphics}
           alt="motionGraphics"
           width={128}
           height={64}
         />
+        <p className={styles.p} id={styles.motionGraphicsP}>Motion Graphics</p>
       </div>
 
     </section>

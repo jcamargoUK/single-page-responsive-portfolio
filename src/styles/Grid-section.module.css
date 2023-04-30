@@ -1,18 +1,33 @@
 .gridSection{
  display: grid;
-  grid-template-columns: 1fr 1fr;
- width: 100vw;
+ grid-template-columns: 1fr 1fr;         
+ gap: 10px; 
+ width: 92vw;
  height: auto;
  margin: auto;
+ margin-top: 1rem;
+ justify-content: center;
+  align-items: center;
 }
 
 .graphicDesign{
   width: 343px;
   height: 364px;
   background-color:#755CDE;
-  border-radius: 5px;
+  border-radius: 10px;
+  grid-area: 1/1/2/3;
 }
-#graphicDesign{
+#graphicDesignImg{
+  background-color:#755CDE;
+  display: flex;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+
+}
+
+#graphicDesignP{
+  margin-top: 20rem;
   background-color:#755CDE;
 
 }
@@ -21,53 +36,101 @@
   width:159px;
   height: 182px;
   background-color: #F6A560;
-  border-radius: 5px;
+  border-radius: 10px;
+  grid-area: 2/1/2/3;
 
 }
-#uiUx{
+#uiUxImg{
   background-color: #F6A560;
+  display: flex;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#uiUxP{
+  background-color: #F6A560;
+  margin-top: 8rem;
 }
 
 .apps{
   width:159px;
   height: 182px;
   background-color: #F39E9E;
-  border-radius: 5px;
-
+  border-radius: 10px;
+  grid-area: 2/2/2/3;
 }
-#apps{
+#appsImg{
   background-color: #F39E9E;
+  display: flex;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#appsP{
+  background-color: #F39E9E;
+  margin-top: 8rem;
 }
 
 .illustrations{
   width: 343px;
   height: 158px;
   background-color: #EB7565;
-  border-radius: 5px;
-
+  border-radius: 10px;
+  grid-area: 3/1/4/3;
 }
-#illustrations{
+#illustrationsImg{
   background-color: #EB7565;
+  display: flex;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#illustrationsP{
+  background-color: #EB7565;
+  margin-top: 7rem;
 }
 
 .photography{
   width: 343px;
   height: 158px;
   background-color: #61C4B7;
-  border-radius: 5px;
-
+  border-radius: 10px;
+  grid-area: 4/1/5/3;
 }
-#photography{
+#photographyImg{
   background-color: #61C4B7;
+  display: flex;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#photographyP{
+  background-color: #61C4B7;
+  margin-top: 7rem;
 }
 
 .motionGraphics{
   width: 343px;
   height: 158px;
   background-color: #552049;
-  border-radius: 5px;
-
+  border-radius: 10px;
+  grid-area: 5/1/6/3;
 }
-#motionGraphics{
+#motionGraphicsImg{
   background-color: #552049;
+  display: flex;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#motionGraphicsP{
+  background-color: #552049;
+  margin-top: 7rem;
+}
+
+.p{
+  display: flex;
+  margin-left: 1rem;
+  font-size: 24px;
+  color: #FFF7F0;
 }
