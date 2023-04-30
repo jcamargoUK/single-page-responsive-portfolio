@@ -150,3 +150,37 @@
   }
 
 }
+
+@media screen and (min-width: 1440px){
+  .gridSection{
+    grid-template-columns: repeat(7, 1fr);
+    width: 95vw;
+  }
+  .graphicDesign{
+    grid-area: 1/2/3/3;
+    height: 351px;
+  }
+  #graphicDesignP{
+    margin-top: 19rem;
+  }
+  .uiUx{
+    grid-area: 1/4/2/7;
+    width: 163px;
+  }
+  .apps{
+    grid-area: 1/3/2/5;
+    width: 163px;
+  }
+  .illustrations{
+    grid-area: 2/3/3/5;
+    height: 160px;
+  }
+  .photography{
+    grid-area: 1/5/2/6;
+    height: 182px;
+  }
+  .motionGraphics{
+    grid-area: 2/5/3/7;
+  }
+}
+
