@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Header from '../../components/Header'
+import GridSection from '../../components/Grid-section'
 
 export default function Home() {
   return (
@@ -12,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-       <Header />
+        <Header />
+        <GridSection />
       </main>
     </>
   )

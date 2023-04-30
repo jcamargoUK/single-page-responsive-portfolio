@@ -1,0 +1,73 @@
+.gridSection{
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+ width: 100vw;
+ height: auto;
+ margin: auto;
+}
+
+.graphicDesign{
+  width: 343px;
+  height: 364px;
+  background-color:#755CDE;
+  border-radius: 5px;
+}
+#graphicDesign{
+  background-color:#755CDE;
+
+}
+
+.uiUx{
+  width:159px;
+  height: 182px;
+  background-color: #F6A560;
+  border-radius: 5px;
+
+}
+#uiUx{
+  background-color: #F6A560;
+}
+
+.apps{
+  width:159px;
+  height: 182px;
+  background-color: #F39E9E;
+  border-radius: 5px;
+
+}
+#apps{
+  background-color: #F39E9E;
+}
+
+.illustrations{
+  width: 343px;
+  height: 158px;
+  background-color: #EB7565;
+  border-radius: 5px;
+
+}
+#illustrations{
+  background-color: #EB7565;
+}
+
+.photography{
+  width: 343px;
+  height: 158px;
+  background-color: #61C4B7;
+  border-radius: 5px;
+
+}
+#photography{
+  background-color: #61C4B7;
+}
+
+.motionGraphics{
+  width: 343px;
+  height: 158px;
+  background-color: #552049;
+  border-radius: 5px;
+
+}
+#motionGraphics{
+  background-color: #552049;
+}
