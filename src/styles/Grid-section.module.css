@@ -7,9 +7,8 @@
  margin: auto;
  margin-top: 1rem;
  justify-content: center;
-  align-items: center;
+ align-items: center;
 }
-
 .graphicDesign{
   width: 343px;
   height: 364px;
@@ -23,22 +22,17 @@
   float: right;
   margin-right: 1rem;
   margin-top: 1rem;
-
 }
-
 #graphicDesignP{
   margin-top: 20rem;
   background-color:#755CDE;
-
 }
-
 .uiUx{
   width:159px;
   height: 182px;
   background-color: #F6A560;
   border-radius: 10px;
   grid-area: 2/1/2/3;
-
 }
 #uiUxImg{
   background-color: #F6A560;
@@ -51,7 +45,6 @@
   background-color: #F6A560;
   margin-top: 8rem;
 }
-
 .apps{
   width:159px;
   height: 182px;
@@ -70,7 +63,6 @@
   background-color: #F39E9E;
   margin-top: 8rem;
 }
-
 .illustrations{
   width: 343px;
   height: 158px;
@@ -89,7 +81,6 @@
   background-color: #EB7565;
   margin-top: 7rem;
 }
-
 .photography{
   width: 343px;
   height: 158px;
@@ -108,7 +99,6 @@
   background-color: #61C4B7;
   margin-top: 7rem;
 }
-
 .motionGraphics{
   width: 343px;
   height: 158px;
@@ -127,10 +117,36 @@
   background-color: #552049;
   margin-top: 7rem;
 }
-
 .p{
   display: flex;
   margin-left: 1rem;
   font-size: 24px;
   color: #FFF7F0;
+}
+
+@media screen and (min-width: 768px){
+  .gridSection{
+    grid-template-columns: repeat(6, 1fr);
+    width: 80vw;
+
+  }
+  .graphicDesign{
+    grid-area: 1/2/3/3;
+  }
+  .uiUx{
+    grid-area: 1/3/2/4;
+  }
+  .apps{
+    grid-area: 1/4/2/5;
+  }
+  .illustrations{
+    grid-area: 2/3/3/5;
+  }
+  .photography{
+    grid-area: 3/2/4/2;
+  }
+  .motionGraphics{
+    grid-area: 3/3/4/5;
+  }
+
 }
