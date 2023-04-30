@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className={styles.content}>
         <h1 className={styles.h1}>Design solutions made easy</h1>
-        <p className={styles.p}>With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+        <p className={styles.p}>With over ten years of experience in various design disciplines, Im your one-stop shop for your design needs.</p>
       </div>
     </>
   )

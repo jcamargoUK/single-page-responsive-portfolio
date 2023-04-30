@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Header from '../../components/Header'
 import GridSection from '../../components/Grid-section'
+import HeroSection from '../../components/Hero-section'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <GridSection />
+        <HeroSection />
       </main>
     </>
   )
