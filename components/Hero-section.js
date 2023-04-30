@@ -5,7 +5,8 @@ import styles from '@/styles/Hero.module.css'
 const HeroSection = () => {
   return (
     <div className={styles.heroSection}>
-      <Image
+      <Image 
+        className={styles.heroSection__Image}
         src={amy}
         alt="Amy"
         width={300}

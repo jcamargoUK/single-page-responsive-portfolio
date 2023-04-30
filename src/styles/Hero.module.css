@@ -44,3 +44,21 @@
     align-items: initial;
   }
 }
+@media screen and (min-width: 1024px){
+  .heroSection{
+    margin-left: 20px;
+  }
+  .heroSection_H1{
+    margin-top: 0;
+  }
+  .heroSection__P{
+    margin-top: 1rem;
+  }
+  .heroSection__Image{
+    margin-left: 110px;
+  }
+  .heroSection__Content{
+    margin-left: 80px;
+    width: 35%;
+  }
+}
