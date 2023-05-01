@@ -31,3 +31,13 @@
   border-radius: 10px;
 }
 
+@media screen and (min-width: 768px){
+  .carouselContainer {
+    width: 44%;
+  } 
+}
+@media screen and (min-width: 1440px){
+  .carouselContainer {
+    width: 22%;
+  } 
+}
