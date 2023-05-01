@@ -3,6 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Header from '../../components/Header'
 import GridSection from '../../components/Grid-section'
 import HeroSection from '../../components/Hero-section'
+import Carousel from '../../components/Carousel'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Header />
         <GridSection />
         <HeroSection />
+        <Carousel />
       </main>
     </>
   )
