@@ -153,7 +153,7 @@
 
 @media screen and (min-width: 1440px){
   .gridSection{
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     width: 95vw;
   }
   .graphicDesign{
@@ -164,7 +164,7 @@
     margin-top: 19rem;
   }
   .uiUx{
-    grid-area: 1/4/2/7;
+    grid-area: 1/4/2/6;
     width: 163px;
   }
   .apps{
@@ -180,7 +180,7 @@
     height: 182px;
   }
   .motionGraphics{
-    grid-area: 2/5/3/7;
+    grid-area: 2/5/3/6;
   }
 }
 
