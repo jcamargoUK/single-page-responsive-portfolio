@@ -12,7 +12,9 @@ const Carousel = () => {
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: "0px",
-    arrows: false
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000
   };
 
   return (
