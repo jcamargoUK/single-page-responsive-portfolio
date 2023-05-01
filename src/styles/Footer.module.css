@@ -1,0 +1,38 @@
+.footer{
+  width: 95vw;
+  margin: 3rem auto;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #030303;
+  height: auto;
+  align-items: center;
+}
+
+.h1, .p{
+  color: #FFF7F0;
+}
+
+.h1{
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem ;
+}
+.p{
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.button{
+  background-color: #EB7565;
+  color:#FFF7F0;
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 100px;
+  margin-top: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}

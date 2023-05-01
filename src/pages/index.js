@@ -4,6 +4,8 @@ import Header from '../../components/Header'
 import GridSection from '../../components/Grid-section'
 import HeroSection from '../../components/Hero-section'
 import Carousel from '../../components/Carousel'
+import Footer from '../../components/Footer'
+import Botton from '../../components/Botton'
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
         <GridSection />
         <HeroSection />
         <Carousel />
+        <Footer />
+        <Botton />
       </main>
     </>
   )

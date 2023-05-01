@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FFF7F0;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
+html{
+  background-color: #FFF7F0;
+}
+

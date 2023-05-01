@@ -1,0 +1,17 @@
+.bottom{
+  display: flex;
+  width: 90%;
+  margin: 1rem auto;
+  justify-content: space-between;
+}
+
+
+
+.headerButton{
+  background-color: black;
+  color: white;
+  width: 60%;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+}
