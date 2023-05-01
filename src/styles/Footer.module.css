@@ -1,6 +1,6 @@
 .footer{
   width: 95vw;
-  margin: 3rem auto;
+  margin: 5rem auto;
   border-radius: 10px;
   text-align: center;
   display: flex;
@@ -35,4 +35,36 @@
   margin-top: 2rem;
   align-items: center;
   margin-bottom: 3rem;
+}
+@media screen and (min-width: 768px){
+  .footer{
+    width: 90vw;
+  }
+  
+  .button{
+    width: 40%;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 910px){
+  .footer{
+    width: 70vw;
+  }
+  .button{
+    width: 20%;
+    font-size: 1rem;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .footer{
+    width: 60vw;
+  }
+  .button{
+    width: 30%;
+    font-size: 1.5rem;
+  }
+  .p{
+    width: 70%;
+  }
 }
