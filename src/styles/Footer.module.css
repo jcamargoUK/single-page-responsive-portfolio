@@ -36,6 +36,11 @@
   align-items: center;
   margin-bottom: 3rem;
 }
+.button:hover{
+  background-color: #F6A560;
+  cursor: pointer;
+  
+}
 @media screen and (min-width: 768px){
   .footer{
     width: 90vw;
@@ -56,6 +61,15 @@
     height: 50px;
   }
 }
+@media screen and (min-width: 1024px){
+  .p{
+    width: 50vw;
+  }
+  .button{
+    width: 30%;
+  }
+}
+
 @media screen and (min-width: 1440px){
   .footer{
     width: 60vw;

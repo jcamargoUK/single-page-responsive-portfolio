@@ -14,7 +14,8 @@ const Carousel = () => {
     centerPadding: "0px",
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 3000
+    autoplaySpeed: 3000,
+    
   };
 
   return (

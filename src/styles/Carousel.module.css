@@ -30,12 +30,25 @@
   margin: auto;
   border-radius: 10px;
 }
+@media screen and (min-width: 425px){
+  .carouselContainer {
+    width: 77%;
+  } 
+}
+
 
 @media screen and (min-width: 768px){
   .carouselContainer {
     width: 44%;
   } 
 }
+@media screen and (min-width: 1024px){
+  .carouselContainer {
+    width: 32%;
+  } 
+}
+
+
 @media screen and (min-width: 1440px){
   .carouselContainer {
     width: 22%;
