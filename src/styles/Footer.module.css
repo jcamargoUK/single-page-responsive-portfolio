@@ -39,7 +39,6 @@
 .button:hover{
   background-color: #F6A560;
   cursor: pointer;
-  
 }
 @media screen and (min-width: 768px){
   .footer{
